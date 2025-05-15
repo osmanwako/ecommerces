@@ -4,15 +4,15 @@ $id = $_SESSION['user_id'] ?? '';
 $role = $_SESSION['role'] ?? '';
 $name = "Company: " . ($_SESSION['name'] ?? '');
 $name = "{$name}'s Products";
-$title = "Edit Selected Product";
-$update = "Update";
+$title = "Are you sure to replay order?";
+$update = "Decline";
 
 if ($role == 'customer') {
     $name = "Customer: " . ($_SESSION['firstname'] ?? '') . ' ' . 
             ($_SESSION['middlename'] ?? '') . ' ' . 
             ($_SESSION['lastname'] ?? '');
-    $title = "Selected Product Order";
-    $update = "Order";
+    $title = "Are you sure to remove order?";
+    $update = "Delete";
 }
 
 try {
@@ -23,6 +23,7 @@ try {
                 p.name,
                 p.brand,
                 p.model,
+                o.id as orderid,
                 o.quantity,
                 o.price,
                 o.status
@@ -39,6 +40,7 @@ try {
                 p.brand,
                 p.model,
                 o.quantity,
+                o.id as orderid,
                 o.price,
                 o.status
                 FROM products p inner JOIN 

@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Leghar E-commerce</title>
   <link rel="icon" type="image/png" href="./css/icon.png">
-  <link href="./css/style.css?v=3" rel="stylesheet">
+  <link href="./css/style.css?v=8" rel="stylesheet">
 </head>
 <body class="d-flex flex-column min-vh-100">
 <div class="container-fluid bg-light">
@@ -26,7 +26,7 @@
             <a class="nav-link <?php echo isset($activeorder) ? 'active': ''; ?>" href="./order.php">orders</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?php echo isset($activesale) ? 'active': ''; ?>" href="./sales.php">Sales</a>
+            <a class="nav-link <?php echo isset($activesale) ? 'active': ''; ?>" href="./sale.php">Purchases</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./logout.php">Logout</a>

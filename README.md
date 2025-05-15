@@ -51,6 +51,6 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ## 👤 Author
 
-- Your Name — [yourwebsite.com](https://yourwebsite.com)
+- Your Name — **Osman Wako Wario**
 
 

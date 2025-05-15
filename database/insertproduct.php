@@ -28,8 +28,6 @@ try {
 
     $error_message = "Product added successfully";
 } catch (PDOException $e) {
-//    echo    $e->getMessage();
-//    exit();
     $stmt = $pdo->query("SHOW TABLES LIKE 'products'");
     if ($stmt->rowCount() === 0) {
         try {
