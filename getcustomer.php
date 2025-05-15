@@ -26,7 +26,7 @@
             <a class="nav-link <?php echo isset($activeorder) ? 'active': ''; ?>" href="./order.php">orders</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?php echo isset($activesale) ? 'active': ''; ?>" href="./sale.php">Purchases</a>
+            <a class="nav-link <?php echo isset($activepurchase) ? 'active': ''; ?>" href="./purchases.php">Purchases</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./logout.php">Logout</a>
