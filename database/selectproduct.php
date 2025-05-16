@@ -26,6 +26,6 @@ try {
     $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
     
 } catch (PDOException $e) {
-    $error_message = "Internal database error: " . $e->getMessage();
+    $error_message = "No Registered Products belongs to your company";
 }
 ?>

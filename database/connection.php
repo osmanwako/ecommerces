@@ -1,6 +1,6 @@
 <?php
 $host     = 'localhost';
-$dbName   = 'leghar_realdb';
+$dbName   = 'db_shegergebeya';
 $username = 'root';
 $password = '';
 
