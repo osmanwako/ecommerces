@@ -519,4 +519,36 @@
   font-size: 0.95rem;
 }
 
+ /* Footer */
+    footer {
+      background-color: #1e3a8a;
+      color: white;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+
+    footer .footer-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+
+    footer ul {
+      list-style: none;
+    }
+
+    footer ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    footer i {
+      margin-right: 0.5rem;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      margin-top: 1.5rem;
+      font-size: 0.9rem;
+    }
+
   
